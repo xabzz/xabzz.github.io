@@ -3,12 +3,12 @@
 	Why are you here?
 	You're not supposed to be here.
 	Please leave.
-
+        Made by zurly#5555 for xabz
 -->
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Site</title>
+    <title>xabz.xyz</title>
     <style>
       body {
         background-color: #080707;
@@ -34,14 +34,14 @@
         align-items: center;
         background-color: rgba(0, 0, 0, 0.6);
         border-radius: 10px;
-        box-shadow: 0px 0px 20px #190bdd;
+        box-shadow: 0px 0px 20px #FFFFFF;
       }
 
       #profile-pic {
         width: 200px;
         height: 200px;
         border-radius: 50%;
-        background-image: url('https://cdn.discordapp.com/attachments/1057469072100556870/1074193006460145684/pfp.PNG');
+        background-image: url('https://cdn.discordapp.com/attachments/1085550737196581004/1085610030943977605/e0f8f06d10e0a9bc44487e1388bfbd7f.PNG');
         background-size: cover;
       }
 
@@ -52,7 +52,7 @@
         margin-top: 20px;
         text-align: center;
         font-family: 'Orbitron', sans-serif;
-        text-shadow: 0px 0px 10px #2d0ce9;
+        text-shadow: 0px 0px 10px #FFFFFF;
         cursor: pointer;
       }
 
@@ -78,11 +78,11 @@
         background-image: url('image1.png');
       }
 
-      #instagram-icon {
+      #youtube-icon {
         background-image: url('image2.png');
       }
 
-      #tiktok-icon {
+      #website-icon {
         background-image: url('image3.png');
       }
 
@@ -101,11 +101,11 @@
 
     <div id="profile-container">
       <div id="profile-pic"></div>
-      <div id="username" onclick="window.location.href='https://lay.rip/xp'">@eye</div>
+      <div id="username" onclick="window.location.href='https://zurly.lol/'">@xabz</div>
       <div id="icons-container">
-        <a href="https://discord.gg/alvi"><div class="icon" id="discord-icon"></div></a>
-        <a href="https://www.instagram.com/eye.user"><div class="icon" id="instagram-icon"></div></a>
-        <a href="https://tiktok.com/@user167849926"><div class="icon" id="tiktok-icon"></div></a>
+        <a href="https://discord.gg/conjuring"><div class="icon" id="discord-icon"></div></a>
+        <a href="https://www.youtube.com/@xabzong"><div class="icon" id="youtube-icon"></div></a>
+        <a href="https://feds.lol/xabz"><div class="icon" id="website-icon"></div></a>
       </div>
     </div>
 
@@ -157,7 +157,7 @@
                 Math.pow(dots[i].x - dots[j].x, 2) + Math.pow(dots[i].y - dots[j].y, 2)
               );
               if (distance < connectDistance) {
-                ctx.strokeStyle = 'rgba(0, 100, 255, ' + (1 - distance / connectDistance) + ')';
+                ctx.strokeStyle = 'rgba(255, 255, 255, ' + (1 - distance / connectDistance) + ')';
                 ctx.beginPath();
                 ctx.moveTo(dots[i].x, dots[i].y);
                 ctx.lineTo(dots[j].x, dots[j].y);
